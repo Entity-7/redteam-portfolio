@@ -1,0 +1,12 @@
+*.pem
+*.key
+*.ovpn
+*.kirbi
+*.ccache
+.env
+id_*
+*.pcap
+*.dmp
+loot/
+creds*
+*.log
