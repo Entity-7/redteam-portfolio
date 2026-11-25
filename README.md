@@ -16,7 +16,7 @@ enterprise lab environments.
 
 ### Directory
 
-\`\`\`
+```
 ├── attack-chains/       # end-to-end AD & segmented network compromise paths, ATT&CK-mapped
 ├── writeups/            # HTB / THM / custom AD lab write-ups
 ├── infrastructure/      # C2 and redirector build notes (sanitized)
@@ -24,13 +24,13 @@ enterprise lab environments.
 ├── templates/           # write-up and report templates
 ├── tooling/             # custom scripts, loaders, enumeration utilities
 └── reports/             # redacted lab engagement reports
-\`\`\`
+```
 
 ### Active work
 
-- \`writeups/custom-ad-lab/\` — AS-REQ/TGS-REQ ticket lifecycle, PAC validation, delegation edge cases
-- \`tooling/\` — Sliver C2 infrastructure: beacon configs, HTTP redirectors, deployment templates
-- \`reports/\` — CRTS v2 lab replication write-ups
+- `writeups/custom-ad-lab/` — AS-REQ/TGS-REQ ticket lifecycle, PAC validation, delegation edge cases
+- `tooling/` — Sliver C2 infrastructure: beacon configs, HTTP redirectors, deployment templates
+- `reports/` — CRTS v2 lab replication write-ups
 
 ### Scope
 
