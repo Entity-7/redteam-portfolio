@@ -1,16 +1,38 @@
-# Entity-7 | Red Team Portfolio
+```diff
++    ______      __  _ __              _____
++   / ____/___  / /_(_) /___  __      /__  /
++  / __/ / __ \/ __/ / __/ / / /_______ / /
++ / /___/ / / / /_/ / /_/ /_/ /_______// /
++/_____/_/ /_/\__/_/\__/\__, /        /_/
++                      /____/
+```
 
-Certified Red Team Specialist (CRTS v2) and final-year cybersecurity student. Focus: Active Directory attack chains, C2 infrastructure, pivoting, and privilege escalation, mapped to MITRE ATT&CK.
+**Entity-7** — Final-year Cyber Security Science (FUTMINNA) · CRTS v2
 
-> All content comes from personal labs and retired HTB/THM machines. No certification exam content is published here.
+Working repository for offensive lab research, custom tooling, and detection
+telemetry. Everything here is built, tested, and verified in isolated
+enterprise lab environments.
 
-## Contents
-- `attack-chains/` end-to-end scenarios
-- `writeups/` HTB, THM, custom AD lab
-- `infrastructure/` C2 and redirector build notes (sanitized)
-- `reports/` sample engagement reports
-- `detections/` defender view of each technique
-- `tooling/` small lab-use scripts
+### Directory
 
-## Disclaimer
-For educational use in authorized lab environments only.
+├── attack-chains/          # End-to-end AD & segmented network compromise paths (MITRE ATT&CK mapped)
+├── protocol-internals/     # Wire-level breakdowns: Kerberos, SMB, LDAP
+├── tooling/                # Custom C2 implants, loaders, and enumeration utilities
+├── detection-engineering/  # Sigma rules, Sysmon configs, and event telemetry per attack chain
+└── reports/                # Redacted lab engagement reports
+
+
+### Active work
+
+- `protocol-internals/kerberos/` — AS-REQ/TGS-REQ ticket lifecycle, PAC validation, delegation edge cases
+- `tooling/` — Sliver C2 infrastructure: beacon configs, HTTP redirectors, deployment templates
+- `reports/` — engagement reports from live pentest work and CRTS v2 lab replication
+
+### Scope
+
+Lab-only. No live targets, no unpatched disclosures.
+
+### Contact
+
+- X: [@SpydrBytz](https://x.com/SpydrBytz)
+- CRTS v2 — credential verification available on request
