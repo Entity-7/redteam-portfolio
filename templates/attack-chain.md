@@ -1,26 +1,24 @@
 # [chain name]
 
-- environment: custom lab / HTB / THM
-- objective: initial access → [end state]
-- mitre att&ck: T____ > T____ > T____
+**Environment:** custom lab / HTB / THM
+**Entry vector:**
+**Objective:**
+**MITRE ATT&CK:** T____ > T____ > T____
 
-## path
+## Attack Path
 
-1. recon
-2. initial access
-3. privilege escalation
-4. lateral movement / pivoting
-5. objective reached
+1. Recon
+2. Initial Access
+3. Privilege Escalation
+4. Lateral Movement
+5. Objective
 
-## root cause
+## Root Cause
 
-what misconfiguration or trust relationship made this possible.
+## Detection
 
-## detection
+| Technique | Event ID / Source | Sigma Rule |
+|---|---|---|
+| | | |
 
-- event ids / telemetry sources
-- sigma rule reference (link to detections/)
-
-## remediation
-
-what closes this path, concretely — not "patch and monitor."
+## Remediation

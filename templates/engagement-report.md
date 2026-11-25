@@ -1,37 +1,27 @@
-# [engagement name] — lab engagement report
+# [Engagement Name]
 
-**scope:** [lab environment / target description]
-**dates:** [start–end]
-**classification:** lab-only, no live systems
+**Scope:**
+**Period:**
+**Classification:** Lab-only, no live systems
 
-## executive summary
+## Executive Summary
 
-2-3 sentences — what was tested, what was found, overall risk posture.
-written for a non-technical reader.
+## Methodology
 
-## methodology
+## Findings
 
-recon → exploitation → post-exploitation → reporting, briefly.
-reference the ROE this was conducted under.
-
-## findings
-
-| id | finding | severity | ATT&CK | status |
-|----|---------|----------|--------|--------|
+| ID | Finding | Severity | ATT&CK | Status |
+|---|---|---|---|---|
 | F1 | | | | |
 
-### F1 — [finding name]
+### F1 — [Finding Name]
 
-- **severity:** critical / high / medium / low
-- **description:** what the issue is
-- **evidence:** [screenshot / log excerpt reference — sanitized]
-- **impact:** what an attacker gains
-- **remediation:** concrete fix, not generic advice
+**Severity:**
+**Description:**
+**Evidence:**
+**Impact:**
+**Remediation:**
 
-## detection notes
+## Detection Notes
 
-telemetry that would have caught this chain, per finding.
-
-## conclusion
-
-overall posture, prioritized remediation order.
+## Conclusion

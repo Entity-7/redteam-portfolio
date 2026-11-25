@@ -1,24 +1,16 @@
-# [protocol / mechanism name]
+# [Protocol / Mechanism]
 
-- scope: [what's being examined — e.g. Kerberos PAC validation, SMB signing negotiation]
-- source: RFC / MS-DOC / packet capture / disassembly
+**Scope:**
+**Reference:** RFC / MS-DOC / PCAP / disassembly
 
-## how it works
+## Mechanism
 
-the mechanism, explained at the level that matters — not a copy
-of the spec, but what the spec means for an operator.
+## Failure Condition
 
-## where it breaks
+## Offensive Application
 
-the assumption an attacker can violate, and why the mechanism
-doesn't catch it.
+## Defensive Application
 
-## practical implication
+## References
 
-what this enables offensively, and what it enables for detection.
-pair both — a mechanism without a defensive read is half the analysis.
-
-## references
-
-- [RFC / doc link]
-- [related write-up in this repo, if any]
+-
